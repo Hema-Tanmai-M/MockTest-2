@@ -6,6 +6,7 @@ form.addEventListener('submit',event=>{
     var lname=form.elements['lname'].value;
     var gender=form.elements['Gender'].value;
     var email=form.elements['email'].value;
+    //var ip_address=form.elements['ip_address'].value;
     var user = JSON.stringify({"first_name":fname, "last_name":lname, "gender":gender, "email":email});
 	
     var xhr = new XMLHttpRequest();
